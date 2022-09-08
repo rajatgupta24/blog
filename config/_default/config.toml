@@ -1,4 +1,4 @@
-baseurl = " https://rajatgupta24.github.io/blog/"
+baseurl = "https://rajatgupta24.github.io/blog/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
