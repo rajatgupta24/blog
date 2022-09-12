@@ -1,11 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Rajat"
+title = "Rajat Gupta"
 titleSeparator = "-"
-titleAddition = "A Software Developer"
-description = "I'm a Full stack devloper, worked with Go & Javascript, a Jenkins X maintainer and Linux Foundation Scholarship winner."
-
+titleAddition = "A software developer"
+description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
 
 ## Documentation
 # docsVersion = "0.3"
@@ -22,11 +21,8 @@ twitterCreator = "@rajatgtwt"
 
 ## JSON-LD
 schemaType = "Person"
+# schemaType = "Organization"
 schemaName = "Doks"
-schemaAuthor = "Rajat Gupta"
-schemaTwitter = "https://twitter.com/rajatgtwt"
-schemaLinkedIn = "https://www.linkedin.com/in/rajatgupta24/"
-schemaGitHub = "https://github.com/rajatgupta24"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -34,6 +30,9 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/rajatgtwt"
+schemaLinkedIn = ""
+schemaGitHub = "https://github.com/rajatgupta24"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -42,13 +41,13 @@ siteLinksSearchBox = false
 ## Chrome Browser
 themeColor = "#fff"
 
-# Images - Temporarily left in place for backward compatibility
+# Images
 quality = 85
 bgColor = "#fff"
 landscapePhotoWidths = [900, 800, 700, 600, 500]
 portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
-smallLimit = "300"
+smallLimit = "500"
 
 # Images
 imageResponsive = true
@@ -62,10 +61,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Created by Rajat Gupta with ❤️"
+footer = "Created by Rajat Gupta ❤️"
 
 # Feed
-copyRight = "Copyright (c) 2021-2022 Rajat Gupta"
+copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
 
 # Alert
 alert = false
@@ -80,7 +79,7 @@ repoHost = "GitHub"
 docsRepo = "https://github.com/h-enk/doks"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
-editPage = false
+editPage = true
 lastMod = false
 
 [sections]
@@ -90,7 +89,7 @@ lastMod = false
   lazySizes = true
   clipBoard = true
   instantPage = true
-  flexSearch = true
+  flexSearch = false
   searchSectionsShow = []
   searchSectionsIndex = []
   darkMode = true
@@ -102,7 +101,7 @@ lastMod = false
   docsVersioning = false
   fullWidth = false
   navbarSticky = true
-  toTopButton = false
+  toTopButton = true
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
 
 [menu]
