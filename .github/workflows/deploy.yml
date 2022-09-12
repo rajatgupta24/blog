@@ -5,11 +5,11 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-based
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
