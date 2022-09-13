@@ -1,0 +1,58 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+title: The Rajat Gupta Blog
+theme: PaperMod
+
+params:
+  env: production
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
+  ShowReadingTime: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
+  
+  ShowPostNavLinks: true
+
+  defaultTheme: auto
+
+  assets:
+    disableHLJS: true
+
+  homeInfoParams:
+    Title: Hello! Welcome to The RGB 
+    Content: Yes, The Rajat Gupta's Blog
+
+  socialIcons:
+    - name: "twitter"
+      url: "https://twitter.com/rajatgtwt"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/rajatgupta24/"
+    - name: "github"
+      url: "https://github.com/rajatgupta24"
+
+  editPost:
+    URL: "https://github.com/rajatgupta24/blog/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+
+menu:
+  main:
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+
+    
