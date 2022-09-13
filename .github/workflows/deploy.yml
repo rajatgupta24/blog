@@ -2,20 +2,8 @@ name: Deploy Hugo PaperMod Demo to Pages
 
 on:
   push:
-    paths-ignore:
-      - "images/**"
-      - "LICENSE"
-      - "README.md"
     branches:
-      - master
-      - exampleSite
-  workflow_dispatch:
-    # manual run
-    inputs:
-      hugoVersion:
-        description: "Hugo Version"
-        required: false
-        default: "0.83.0"
+      - main
 
 # Allow one concurrent deployment
 concurrency:
