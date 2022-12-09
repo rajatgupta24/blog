@@ -1,6 +1,6 @@
 baseURL: 'http://example.org/'
 languageCode: en-us
-title: The Rajat Gupta Blog
+title: Rajat Gupta
 theme: PaperMod
 
 params:
@@ -19,16 +19,24 @@ params:
     disableHLJS: true
 
   homeInfoParams:
-    Title: Hello! Welcome to The RGB 
-    Content: Yes, The Rajat Gupta's Blog
+    Title: Hello! I'm Rajat Gupta
+    Content: I'm Software Developer and an Open Source Maintainer.
 
   socialIcons:
-    - name: "twitter"
-      url: "https://twitter.com/rajatgtwt"
+    # - name: "facebook"
+    #   url: "https://twitter.com/rajatgtwt"
+    # - name: "instagram"
+    #   url: "https://twitter.com/rajatgtwt"
     - name: "linkedin"
       url: "https://www.linkedin.com/in/rajatgupta24/"
+    - name: "twitter"
+      url: "https://twitter.com/rajatgtwt"
     - name: "github"
       url: "https://github.com/rajatgupta24"
+    - name: "polywork"
+      url: "https://www.polywork.com/rajatgupta24"
+    - name: "medium"
+      url: "https://medium.com/@rajat2411gupta"
 
   editPost:
     URL: "https://github.com/rajatgupta24/blog/tree/main/content"
@@ -46,6 +54,10 @@ markup:
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
     - identifier: blogs
       name: Blogs
       url: /blogs/
