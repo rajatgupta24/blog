@@ -62,9 +62,4 @@ menu:
       name: Blogs
       url: /blogs/
       weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
-
     
